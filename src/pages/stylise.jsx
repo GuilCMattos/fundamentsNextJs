@@ -1,4 +1,4 @@
-import styles from './Stylise.module.css'
+import styles from '../styles/Stylise.module.css'
 
 export default function Stylise() { 
     return( 
