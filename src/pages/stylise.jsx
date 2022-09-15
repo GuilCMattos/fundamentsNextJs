@@ -1,13 +1,22 @@
 import styles from '../styles/Stylise.module.css'
 import Link from 'next/link'
+import Layout from '../components/Layout'
 
 export default function Stylise() { 
     return( 
-        
-        <div className={styles.purple}>
-            <Link href='/'>Home </Link>
+        <Layout title="Exemplo de CSS Modularizado">
 
-            <h1>Estilo usando modulos</h1>
-        </div>
+        <div className={styles.purple}>
+           
+           <h1>Estilo usando modulos</h1>
+
+           </div>
+
+        </Layout>
+        
+           
+
+          
+        
     )
 }
