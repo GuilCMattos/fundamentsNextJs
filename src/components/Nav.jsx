@@ -5,7 +5,7 @@ export default function Nav(props) {
     return(
         
         
-            <Link href={props.destino}>
+            <Link href={props.destino} passHref>
                 <div className={styles.nav} style={{
                     backgroundColor: props.cor ?? 'dodgerblue'
                 }}>{props.text}</div>

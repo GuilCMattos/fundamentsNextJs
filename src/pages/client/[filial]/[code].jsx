@@ -3,7 +3,7 @@ import Layout from '../../../components/Layout'
 import { useRouter } from "next/router"
 import { useEffect } from "react";
 
-export default function clientCode() { 
+export default function ClientCode() { 
 
     const router = useRouter();
     useEffect(()=> { 
