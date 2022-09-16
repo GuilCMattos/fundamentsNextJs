@@ -1,7 +1,9 @@
 
 import Nav from "../components/Nav"
 
+
 export default function Home() { 
+   
    
     return (
         <div style={{
@@ -15,6 +17,7 @@ export default function Home() {
        <Nav text='App' destino="/app" cor="darkviolet"></Nav>
        <Nav text='Jsx' destino="/jsx" cor="crimson"></Nav>
        <Nav text='Nav' destino="/nav/" cor="crimson"></Nav>
+       <Nav text='Código ' destino="/client/sp/321" cor="darkblue"></Nav>
         </div>
     )
 }
