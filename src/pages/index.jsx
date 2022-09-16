@@ -14,6 +14,7 @@ export default function Home() {
        <Nav text='Estiloso' destino="/stylise"></Nav>
        <Nav text='App' destino="/app" cor="darkviolet"></Nav>
        <Nav text='Jsx' destino="/jsx" cor="crimson"></Nav>
+       <Nav text='Nav' destino="/nav/" cor="crimson"></Nav>
         </div>
     )
 }
