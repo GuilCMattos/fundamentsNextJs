@@ -18,6 +18,7 @@ export default function Home() {
        <Nav text='Jsx' destino="/jsx" cor="crimson"></Nav>
        <Nav text='Nav' destino="/nav/" cor="crimson"></Nav>
        <Nav text='Código ' destino="/client/sp/321" cor="darkblue"></Nav>
+       <Nav text='Componente com Estado' destino="/estado" cor="purple"></Nav>
         </div>
     )
 }
