@@ -1,3 +1,5 @@
+import Layout from '../components/Layout'
+
 export default function Jsx() { 
     const title = <h1>JSX é um conceito Central 2</h1>
 
@@ -6,6 +8,8 @@ export default function Jsx() {
     }
   
     return(
+        <Layout title="Entendendo o JSX">
+
         <div>
             {title}
             {subtitle()}
@@ -14,5 +18,6 @@ export default function Jsx() {
                 {JSON.stringify({nome: 'Gui', idade: 24})}
             </p>
         </div>
+        </Layout>
     )
 }
